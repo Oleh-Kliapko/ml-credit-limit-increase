@@ -1,0 +1,54 @@
+# Віртуальне середовище
+.venv/
+venv/
+env/
+
+# Кеш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter/IPython
+.ipynb_checkpoints
+*.ipynb
+
+# Логи та тимчасові файли
+*.log
+.DS_Store
+Thumbs.db
+
+# Дані
+data/
+dataset.feather
+
+# Результати тренування (моделі, звіти — не завантажуємо, бо важкі)
+reports/
+*.pkl
+*.png
+*.csv
+
+# IDE налаштування
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Тимчасові файли
+*.tmp
+*.bak
