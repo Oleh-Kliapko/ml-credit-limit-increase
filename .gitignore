@@ -35,11 +35,9 @@ wheels/
 Thumbs.db
 
 # Дані
-data/
 dataset.feather
 
 # Результати тренування (моделі, звіти — не завантажуємо, бо важкі)
-reports/
 *.pkl
 *.png
 *.csv
