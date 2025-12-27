@@ -34,35 +34,7 @@
 
 ## Структура проекту
 
-DATA SCIENCE/
-└── ML_models/
-├── models/ # Конфігурації моделей (легко додавати нові)
-│ ├── logreg.py
-│ ├── xgboost.py
-│ ├── lightgbm.py
-│ └── histgb.py
-├── metrics/ # допоміжні функції для метрик
-│ ├── threshold_optimization.py
-│ └── precision_at_fixed_recall.py
-├── reports/ # Результати: моделі (.pkl), графіки, порівняння
-├── data/ # Вхідний датасет (dataset.feather)
-├── config.py # Шляхи до даних
-├── load_data.py # Завантаження .feather
-├── optimize_numerical.py # Оптимізація пам'яті (з int64/float64 → менші типи)
-├── audit_categorical.py # Аудит категоріальних ознак
-├── limit_stats.py # Статистика лімітів
-├── create_target.py # Формування таргету
-├── drop_leakage.py # Видалення leakage-колонок
-├── missing_analysis.py # Аналіз пропусків
-├── handle_missing_values.py# Обробка пропусків
-├── correlation_analysis.py # Кореляція з таргетом
-├── feature_engineering.py # Інженерія ознак (виділено 10 фінальних фіч)
-├── validate_columns.py # Перевірка наявності потрібних колонок
-├── model_selector.py # Інтерактивний вибір моделі користувачем
-├── train_model_base.py # Універсальне тренування, метрики, графіки, збереження
-├── metrics_report.py # Звіт по метриках з інтерпретацією
-├── model_comparison.py # Порівняльна таблиця моделей (CSV + PNG)
-├── main.py
+![Структура проекту](../Structure.png)
 
 ## Як запустити
 
